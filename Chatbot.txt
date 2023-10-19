@@ -1,0 +1,22 @@
+﻿Please refer to the AWS Doc for a detailed process of building a Serverless Application using AWS.
+
+
+https://docs.aws.amazon.com/lex/latest/dg/gs-bp-create-bot.html
+
+
+https://aws.amazon.com/blogs/machine-learning/create-a-translator-chatbot-using-amazon-translate-and-amazon-lex/
+
+
+
+
+What we are building is a basic Chatbot that we can use for Translating, knowing more about its creator, and directing to LinkedIn to contact in person.
+
+
+Workflow -> train a file for phrases -> use amazon lex to create a bot -> use training file to get slot type for using translate -> invoking a function which has AWS translate access which translates user’s source language into target language -> also creating multiple functionalities for user to interact.
+
+
+Services used : 
+
+* AMAZON LEX
+* LAMBDA
+* PYTHON(FOR TRAINING i.e. NLTK)
